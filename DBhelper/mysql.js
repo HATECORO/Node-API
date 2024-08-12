@@ -1,4 +1,4 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
 //创建连接池对象
 const pool = mysql.createPool({
     host: process.env.MYSQL_HOST,
